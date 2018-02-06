@@ -1,0 +1,18 @@
+{
+  "name": "libe-html-templates",
+  "version": "1.0.0",
+  "description": "Générateur de fichiers html pour Libé Six Plus basé sur differents template en Mustache.js",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build base",
+    "baseTabs": "node build baseTabs",
+    "twoThird": "node build twoThird",
+    "oneThird": "node build oneThird",
+    "fullOneThird": "node build fullOneThird"
+  },
+  "author": "TomCourant <tomcourant@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mustache": "^2.3.0"
+  }
+}
