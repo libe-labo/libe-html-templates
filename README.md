@@ -6,23 +6,41 @@
 
 Remplir le fichier `dataView.json`
 
-Crée un des 5 templates :
 
+#### 1 - Template base :
 ```
 $ npm run build
 ```
+![base]
+[base]: https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/base.png
+
+#### 2 - Template base + tabs :
 ```
 $ npm run baseTabs
 ```
+![baseTabs]
+[baseTabs]: https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/baseTabs.png
+
+#### 2 - Template base + two / third :
 ```
 $ npm run twoThird
 ```
+![twoThird]
+[twoThird]: https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/twoThird.png
+
+#### 2 - Template base + one / third :
 ```
 $ npm run oneThird
 ```
+![oneThird]
+[oneThird]: https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/oneThird.png
+
+#### 2 - Template full width one / third :
 ```
 $ npm run fullOneThird
 ```
+![fullOneThird]
+[fullOneThird]: https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/fullOneThird.png
 
 
 ## License
