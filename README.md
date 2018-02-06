@@ -2,45 +2,45 @@
 
 **Générateur de fichiers html pour Libé Six Plus basé sur differents template en [Mustache](https://github.com/janl/mustache.js/)**
 
-## Utilisation
+## Utilisation :
 
 Remplir le fichier `dataView.json`
 
+Utiliser un des script `npm run ...`
+
+Les fichiers sont crées dans `./dist`
+
+## Templates disponible :
 
 #### 1 - Template base :
 ```
 $ npm run build
 ```
-![base]
-[base]: https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/base.png
+<img src="https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/base.png"/>
 
 #### 2 - Template base + tabs :
 ```
 $ npm run baseTabs
 ```
-![baseTabs]
-[baseTabs]: https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/baseTabs.png
+<img src="https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/baseTabs.png"/>
 
-#### 2 - Template base + two / third :
-```
-$ npm run twoThird
-```
-![twoThird]
-[twoThird]: https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/twoThird.png
-
-#### 2 - Template base + one / third :
+#### 3 - Template base + one / third :
 ```
 $ npm run oneThird
 ```
-![oneThird]
-[oneThird]: https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/oneThird.png
+<img src="https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/oneThird.png"/>
 
-#### 2 - Template full width one / third :
+#### 4 - Template base + two / third :
+```
+$ npm run twoThird
+```
+<img src="https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/twoThird.png"/>
+
+#### 5 - Template full width one / third :
 ```
 $ npm run fullOneThird
 ```
-![fullOneThird]
-[fullOneThird]: https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/fullOneThird.png
+<img src="https://raw.githubusercontent.com/libe-sixplus/libe-html-templates/master/captions/fullOneThird.png"/>
 
 
 ## License
