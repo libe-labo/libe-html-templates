@@ -16,9 +16,10 @@ if (templateType) {
   mainVars[templateType] = fs.readFileSync('./templates/' + templateType + '.mustache').toString()
 
   // load all partials templates
-  let allTemplates = ['chapo', 'columnsMultiline', 'head', 'headerTop', 'social', 'tabs', 'tracking', 'sideLeft', 'mainRight']
+  let allTemplates = fs.readdirSync('./templates/_partials/')
   allTemplates.forEach(partials => {
-    mainVars.partials[partials] = fs.readFileSync('./templates/_partials/' + partials + '.mustache').toString()
+    let fileName = partials.split('.')[0]
+    mainVars.partials[fileName] = fs.readFileSync('./templates/_partials/' + partials).toString()
   })
 
   // mustache render
