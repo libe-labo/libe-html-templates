@@ -13,6 +13,10 @@
   "author": "TomCourant <tomcourant@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "libe-bulma": "0.0.1",
     "mustache": "^2.3.0"
+  },
+  "dependencies": {
+    "bulma": "^0.6.2"
   }
 }
