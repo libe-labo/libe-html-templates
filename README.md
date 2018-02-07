@@ -4,6 +4,8 @@
 
 ## Utilisation :
 
+`npm install`
+
 Remplir le fichier `dataView.json`
 
 Utiliser un des script `npm run ...`
